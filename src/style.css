@@ -1,0 +1,135 @@
+:root {
+  font-family: 'Space Grotesk', Tofu;
+  font-style: normal;
+  font-weight: 500;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-image: url('/src/assets/background.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+}
+
+p {
+  color: #9A9A9A;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  margin: 8px 0;
+}
+
+input[type="text"] {
+  color: #fff;
+  text-align: right;
+  font-size: 30px;
+  appearance: textfield;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+button {
+  font-family: 'Space Grotesk', Tofu;
+  font-style: normal;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  border: 1px solid #F2A44F;
+  padding: 8px;
+  font-size: 10px;
+  line-height: 13px;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.card-with-border {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  border: 1px solid #F2A44F;
+  color: #fff;
+}
+
+#app {
+  height: 100%;
+}
+
+@keyframes ph-animation {
+    0% {
+        transform: translate3d(-30%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(30%, 0, 0);
+    }
+}
+
+.loading {
+  animation: ph-animation .8s linear infinite;
+  background: linear-gradient(90deg,hsla(0,0%,100%,0) 46%,hsla(0,0%,100%,.35) 50%,hsla(0,0%,100%,0) 54%) 50% 50%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+    height: 100%;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}

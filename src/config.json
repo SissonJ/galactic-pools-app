@@ -1,0 +1,34 @@
+{
+  "poolContracts": [
+    {
+      "address": "secret1j6ly79zfvh83g8te9utystt8hc6vm84u23gnmn",
+      "codeHash": "0d21c959e0f195e792e391b7b1729f6c6af70912ce76572faaa3db1f10412dfc",
+      "chainId": "pulsar-2"
+    }
+  ],
+  "chains":{
+    "pulsar-2": {
+      "name": "Secret",
+      "url": "https://api.pulsar.scrttestnet.com"
+    }
+  },
+  "tokens":{
+    "uscrt":{
+      "name": "SCRT",
+      "logoPath": "https://d1e92zism97rps.cloudfront.net/sSCRT.svg",
+      "addr": "uscrt",
+      "chainId": "pulsar-2",
+      "type": "native",
+      "decimals": 6
+    },
+    "secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm":{
+      "name": "SHD",
+      "logoPath": "https://d1e92zism97rps.cloudfront.net/Shade.svg",
+      "addr": "secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm",
+      "code_hash": "638a3e1d50175fbcb8373cf801565283e3eb23d88a9b7b7f99fcc5eb1e6b561e",
+      "chainId": "pulsar-2",
+      "type": "snip20",
+      "decimals": 8
+    }
+  }
+}
